@@ -1,0 +1,51 @@
+@import '../../styles/main.css';
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.home_title {
+    margin: 30px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.home_card {
+    width: calc(100% - 10px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--main-color);
+    border-radius: 20px;
+    padding: 40px;
+
+}
+
+.home_card_list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.home_card_list li {
+    width: calc(30% - 10px);
+    background-color: var(--main-color);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: var(--btn-text-color);
+    min-width: 200px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.home_card_list li:hover {
+    scale: 1.02;
+    box-shadow: 5px 5px rgba(0, 238, 255, 0.521);
+}

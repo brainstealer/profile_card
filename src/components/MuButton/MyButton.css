@@ -1,0 +1,23 @@
+@import '../../styles/main.css';
+
+.btn {
+    right: 40px;
+    width: 150px;
+    background-color: var(--main-color);
+    color: var(--btn-text-color);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(20, 117, 117);
+}
+
+
+
+
+@media (max-width: 600px) {
+    .btn {
+        margin-top: 50px;
+    }
+}

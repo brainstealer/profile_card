@@ -1,0 +1,50 @@
+@import '../../styles/main.css';
+
+.contacts_container {
+    margin-top: 50px;
+}
+
+.contacts_title {
+    margin: 30px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.contacts_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    border: 2px solid var(--main-color);
+    border-radius: 25px;
+    padding: 20px 15px;
+    text-align: center;
+
+}
+
+.contacts_list_item {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: var(--btn-text-color);
+    background-color: var(--main-color);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.contacts_list_item span {
+    display: none;
+}
+
+.contacts_list_item span {
+    display: block;
+}
+
+.contacts_list_item:hover {
+    background-color: rgb(20, 117, 117);
+}
+
+
+.contacts_list_item a {
+    text-decoration: none;
+    color: var(--btn-text-color);
+}
