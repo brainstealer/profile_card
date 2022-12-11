@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/profile_card/static/css/main.f5091c28.css",
+    "main.js": "/profile_card/static/js/main.debca0be.js",
+    "static/media/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg": "/profile_card/static/media/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.baa370592999bfc50dce.jpg",
+    "index.html": "/profile_card/index.html",
+    "main.f5091c28.css.map": "/profile_card/static/css/main.f5091c28.css.map",
+    "main.debca0be.js.map": "/profile_card/static/js/main.debca0be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5091c28.css",
+    "static/js/main.debca0be.js"
+  ]
+}
